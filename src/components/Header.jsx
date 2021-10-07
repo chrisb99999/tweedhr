@@ -8,7 +8,7 @@ import fabric from '../assets/textile.png'
 const Header = () => {
     return (
         
-            <header sx={{width: '100vw', height: '60px', bg: 'muted'}}>
+            <header sx={{width: '100vw', height: '60px', bg: 'primary', zIndex:999}}>
                 <nav sx={{variant: 'containers.page', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '100%' }}>
                 <div sx={{display: 'flex', alignItems: 'center'}}><Image src={fabric} alt='textile logo' height='30px' width='30px'  sx={{transform:'rotate(45deg)'}}/>
                 <Link href='/'>

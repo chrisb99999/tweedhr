@@ -24,12 +24,12 @@ const theme = {
       margin: "0 5px 0 5px",
     },
     primaryButton: {
-      borderRadius: "4px",
+      borderRadius: "7px",
       border: "3px solid ",
-      borderColor: "primary",
+      borderColor: "secondary",
 
-      backgroundColor: "primary",
-      color: "muted",
+      backgroundColor: "muted",
+
       fontWeight: "bold",
       fontSize: 3,
       padding: "4px 10px 4px 10px",
@@ -38,6 +38,10 @@ const theme = {
   },
   styles: {
     ...roboto.styles,
+  },
+  colors: {
+    ...roboto.colors,
+    secondary: "#E0712C",
   },
 };
 

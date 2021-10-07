@@ -16,6 +16,25 @@ const theme = {
       m: 0,
       mx: "auto",
     },
+    secondaryButton: {
+      color: "accent",
+      fontWeight: "bold",
+      fontSize: 3,
+      padding: "4px 10px 4px 10px",
+      margin: "0 5px 0 5px",
+    },
+    primaryButton: {
+      borderRadius: "4px",
+      border: "3px solid ",
+      borderColor: "primary",
+
+      backgroundColor: "primary",
+      color: "muted",
+      fontWeight: "bold",
+      fontSize: 3,
+      padding: "4px 10px 4px 10px",
+      margin: "0 5px 0 5px",
+    },
   },
   styles: {
     ...roboto.styles,
